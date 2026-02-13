@@ -2,4 +2,3 @@ KN-32
 Перший рядок
 Другий рядок
 Hello world
-Hello world
