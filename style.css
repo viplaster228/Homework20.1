@@ -1,0 +1,158 @@
+/* ===== ЗАГАЛЬНІ СТИЛІ ===== */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333333;
+  background-color: #fff8f0;
+  margin: 0;
+  padding: 20px;
+}
+
+/* ===== ШАПКА ===== */
+#header {
+  background-color: #f4a261;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+#header h1 {
+  color: #ffffff;
+  font-size: 28px;
+  margin: 0 0 10px 0;
+}
+
+/* ===== НАВІГАЦІЯ ===== */
+.nav a {
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+/* ===== ОСНОВНИЙ КОНТЕНТ ===== */
+#main {
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+/* ===== СЕКЦІЇ ===== */
+.section {
+  background-color: #ffffff;
+  border: 1px solid #f4a261;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  color: #e76f51;
+  font-size: 22px;
+  border-bottom: 2px solid #f4a261;
+  padding-bottom: 5px;
+}
+
+/* ===== ГОЛОВНЕ ФОТО ===== */
+#main-photo {
+  display: block;
+  border: 3px solid #f4a261;
+  margin: 10px 0;
+}
+
+.photo-caption {
+  color: #888888;
+  font-style: italic;
+}
+
+/* ===== ТАБЛИЦЯ ===== */
+.info-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.info-table th {
+  background-color: #f4a261;
+  color: #ffffff;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.info-table td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #f4a261;
+}
+
+.info-table tr:hover {
+  background-color: #fff0e0;
+}
+
+/* ===== СПИСОК ===== */
+.features-list {
+  line-height: 2;
+  color: #555555;
+}
+
+/* ===== ФУТЕР ===== */
+#footer {
+  text-align: center;
+  padding: 12px;
+  background-color: #f4a261;
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+#footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
+
+/* ===== ГАЛЕРЕЯ ===== */
+.gallery-grid {
+  display: block;
+}
+
+.gallery-photo {
+  border: 3px solid #f4a261;
+  margin: 10px;
+}
+
+/* ===== КОНТАКТИ ===== */
+.contact-form p {
+  margin-bottom: 12px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  border: 1px solid #f4a261;
+  padding: 6px;
+  font-size: 15px;
+  width: 300px;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #f4a261;
+  color: #ffffff;
+  border: none;
+  padding: 8px 18px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #e76f51;
+}
+
+.contact-form input[type="reset"] {
+  background-color: #cccccc;
+  border: none;
+  padding: 8px 18px;
+  font-size: 15px;
+  cursor: pointer;
+}
