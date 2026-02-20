@@ -4,70 +4,69 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Контакти — Марся</title>
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 
-  <header>
+  <header id="header">
     <h1>🐱 Контакти</h1>
-    <nav>
+    <nav class="nav">
       <a href="../index.html">Головна</a> |
       <a href="gallery.html">Галерея</a> |
       <a href="contact.html">Контакти</a>
     </nav>
-    <hr>
   </header>
 
-  <main>
-    <h2>Зв'яжіться з нами</h2>
-    <p>Хочете дізнатись більше про Марсю або курильських бобтейлів? Пишіть!</p>
+  <main id="main">
+    <section class="section">
+      <h2>Зв'яжіться з нами</h2>
+      <p>Хочете дізнатись більше про Марсю або курильських бобтейлів? Пишіть!</p>
 
-    <h3>Контактна інформація</h3>
-    <table border="1" cellpadding="8" cellspacing="0">
-      <tr>
-        <th>Спосіб зв'язку</th>
-        <th>Деталі</th>
-      </tr>
-      <tr>
-        <td><b>Власник</b></td>
-        <td>Ігор</td>
-      </tr>
-      <tr>
-        <td><b>Email</b></td>
-        <td><a href="mailto:ti9181117@gmail.com">ti9181117@gmail.com</a></td>
-      </tr>
-      <tr>
-        <td><b>Місто</b></td>
-        <td>Харків, Україна</td>
-      </tr>
-    </table>
+      <h3>Контактна інформація</h3>
+      <table class="info-table" border="1" cellpadding="8" cellspacing="0">
+        <tr>
+          <th>Спосіб зв'язку</th>
+          <th>Деталі</th>
+        </tr>
+        <tr>
+          <td><b>Власник</b></td>
+          <td>Ваше ім'я</td>
+        </tr>
+        <tr>
+          <td><b>Email</b></td>
+          <td><a href="mailto:ti9181117@gmail.com">ti9181117@gmail.com</a></td>
+        </tr>
+        <tr>
+          <td><b>Місто</b></td>
+          <td>Харків, Україна</td>
+        </tr>
+      </table>
+    </section>
 
-    <br>
-
-    <h3>Напишіть нам</h3>
-
-    <form action="#" method="post">
-      <p>
-        <label for="name"><b>Ваше ім'я:</b></label><br>
-        <input type="text" id="name" name="name" size="40" placeholder="Введіть ваше ім'я">
-      </p>
-      <p>
-        <label for="email"><b>Email:</b></label><br>
-        <input type="email" id="email" name="email" size="40" placeholder="example@email.com">
-      </p>
-      <p>
-        <label for="message"><b>Повідомлення:</b></label><br>
-        <textarea id="message" name="message" rows="5" cols="45" placeholder="Ваше повідомлення..."></textarea>
-      </p>
-      <p>
-        <input type="submit" value="Надіслати">
-        <input type="reset" value="Очистити">
-      </p>
-    </form>
-
+    <section class="section">
+      <h2>Напишіть нам</h2>
+      <form class="contact-form" action="#" method="post">
+        <p>
+          <label for="name"><b>Ваше ім'я:</b></label><br>
+          <input type="text" id="name" name="name" size="40" placeholder="Введіть ваше ім'я">
+        </p>
+        <p>
+          <label for="email"><b>Email:</b></label><br>
+          <input type="email" id="email" name="email" size="40" placeholder="example@email.com">
+        </p>
+        <p>
+          <label for="message"><b>Повідомлення:</b></label><br>
+          <textarea id="message" name="message" rows="5" cols="45" placeholder="Ваше повідомлення..."></textarea>
+        </p>
+        <p>
+          <input type="submit" value="Надіслати">
+          <input type="reset" value="Очистити">
+        </p>
+      </form>
+    </section>
   </main>
 
-  <hr>
-  <footer>
+  <footer id="footer">
     <p>
       &copy; 2025 Сторінка Марсі |
       <a href="../index.html">Головна</a> |
